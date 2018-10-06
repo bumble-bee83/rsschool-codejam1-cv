@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+.main_navigation li { 
+    float: left;
+}
+
+ul.main_navigation a {
+    display: block;
+    width: 6em;
+    padding:10px;
+    margin: 0 5px;
+    background-color: #f4f4f4;
+    border: 1px dashed #333;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+ul.main_navigation a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+.fio{
+    clear: both;
+    width: 50%;
+    border: 1px solid #333;
+}
+
+.main_fio img{
+    float: left;
+}
+
+.fio_property{
+    border: 1px solid #333;
+    width: 50%;
+    float: left;
+}
+
+.fio_value{
+    
+    border: 1px solid #333;
+}
