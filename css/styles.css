@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -14,10 +14,6 @@ h1 {
 
  nav {
    margin: 30px 0px;
- }
-
-.main_nav {
-  margin: 20px 0px;
  }
 
 .main_navigation li {
@@ -48,9 +44,9 @@ ul.main_navigation a:hover {
 }
 
 .foto_and_fio {
+  clear: both;
   height: 200px;
   margin-top: 0px;
-  clear: both;
   text-align: center;
 }
 
@@ -65,8 +61,8 @@ ul.main_navigation a:hover {
 
 .name {
   padding: 60px 60px;
-  text-align: center;
   height: 100%;
+  text-align: center;
 }
 
 .name p {
@@ -80,12 +76,12 @@ ul.main_navigation a:hover {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  background-color: grey;
+  background-color: #808080;
 }
 
 .fio_property{
-  width: 30%;
   float: left;
+  width: 30%;
 }
 
 .fio_info li, .education_info li, .fio_property li {
