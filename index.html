@@ -2,46 +2,106 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Резюме Литвинова Александра</title>
+    <title>ALIAKSANDR LITVINAU RESUME</title>
     <link href="./css/styles.css" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Resume</h1>
       <nav>
-        <ul class="main_navigation">
-          <li><a href="#fio">PERSONAL</a></li>
-          <li><a href="#skills">SKILLS</a></li>
-          <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#work">WORK</a></li>
-        </ul>
+          <!--<div class="main_nav" style="border: 1px solid #333" >-->
+          <ul class="main_navigation">
+            <li><a href="#fio">PERSONAL</a></li>
+            <li><a href="#education">SKILLS</a></li>
+            <li><a href="#skills">EDUCATION</a></li>
+            <li><a href="#work">WORK</a></li>
+          </ul>
+          <!--</div>-->
       </nav>
     </header>
-
-            <article>
-                <div class="fio" id="fio">
-                    <div class="main_fio">
-                        <img src="" alt="Мое фото"/>
-                        <p>Александр Литвинов</p>
-                    </div>
-                    <div class="fio_property">
-                        <ul>
-                            <li>Email</li>
-                            <li>Мобильный телефон</li>
-                            <li>Дата рождения</li>
-                            <li>Проживание</li>
-                        </ul>
-                    </div>
-                    <div class="fio_value">
-                        <ul>
-                            <li>bumble-bee83@mail.ru</li>
-                            <li>375293253530</li>
-                            <li>1983-февр.-18</li>
-                            <li>Belarus, Minsk</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </article>
-    </body>
+    <article>
+      <div class="foto_and_fio">
+        <img class="foto" src="./img/foto.jpg" alt="My foto">
+        <div class="name">
+          <p>ALIAKSANDR LITVINAU</p>
+        </div>
+      </div>
+      <div class="fio">
+        <div class="personal" id="fio">
+            <p>PERSONAL</p>
+        </div>
+      </div>
+      <div class="fio_property">
+        <ul>
+          <li>Email</li>
+          <li>Phone</li>
+          <li>BirthDate</li>
+          <li>Location</li>
+        </ul>
+      </div>
+      <div class="fio_info">
+        <ul>
+          <li>bumble-bee83@mail.ru</li>
+          <li>375293253530</li>
+          <li>1983-feb.-19</li>
+          <li>Belarus, Minsk</li>
+        </ul>
+      </div>
+    </article>
+    <article>
+        <div class="skills">
+            <div class="personal" id="skills">
+                <p>SKILLS</p>
+            </div>
+        </div>
+        <div class="skills_info">
+            <details>
+              <summary>Programming languages</summary>
+                <ul>
+                  <li>Dephi</li>
+                  <li>Visual Basic</li>
+                  <li>.Net</li>
+                  <li><a href="https://github.com/bumble-bee83/warmup" target="_blank">JS</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Databases</summary>
+                <ul>
+                  <li>MS SQL</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Web technologies</summary>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Operation systems</summary>
+                <ul>
+                  <li>Windows</li>
+                </ul>
+            </details>
+          </div>
+    </article>
+    <article>
+        <div class="education">
+            <div class="personal" id="education">
+                <p>EDUCATION and TRAINING</p>
+            </div>
+        </div>
+        <div class="education_info">
+          <ul>
+            <li>Belorussian State University Information and Radio electronics</li>
+            <li>
+              <details>
+                <summary>C# Developer in IT-Academy</summary>
+                <img class="foto" src="./img/sertificate.jpg" alt="My sertificate">
+              </details>
+            </li>
+          </ul>
+        </div>
+    </article>
+  </body>
 </html>
